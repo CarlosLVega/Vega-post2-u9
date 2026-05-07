@@ -99,6 +99,10 @@ El workflow [.github/workflows/ci.yml](.github/workflows/ci.yml) ejecuta en cada
 - `mvn -B verify --no-transfer-progress` dentro de `productos-service`.
 - Publicacion del artefacto `jacoco-report`.
 
+## Entregables Post-Contenido 2
+
+El repositorio incluye pruebas unitarias, pruebas de persistencia, pruebas web MVC, reporte JaCoCo y configuracion de integracion continua con GitHub Actions.
+
 ## Evidencia
 
 ![Resultado de mvn test](productos-service/docs/mvn-test-build-success.png)
